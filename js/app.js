@@ -1,6 +1,6 @@
 // METAMASK CONNECTION
 const TIMEOUT = 1000;
-const COLLECTION_NAME = 'CodeCats';
+const COLLECTION_NAME = 'BabyBibblers';
 let editions = [];
 let dots = 1;
 
@@ -11,7 +11,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
   const updateButton = async () => {
     if (!MetaMaskOnboarding.isMetaMaskInstalled()) {
-      onboardButton.innerText = 'Install MetaMask!';
+      onboardButton.innerText = 'Install MetaMask Mang!';
       onboardButton.onclick = () => {
         onboardButton.innerText = 'Connecting...';
         onboardButton.disabled = true;

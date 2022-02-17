@@ -8,10 +8,10 @@
   --font-primary: 'Poppins', sans-serif;
   --font-secondary: 'Arvo', serif;
   --font-code: 'Roboto', monospace;
-  --bg-color: #00163f;
+  --bg-color: #272929;
   --font-color: #ffffff;
   --btn-bg-color: #ffffff;
-  --accent-color: #be7efe;
+  --accent-color: #eb60cd;
   --header-shadow: #000 0px 0px 5px;
 }
 
@@ -64,7 +64,7 @@ header .container {
   background: var(--btn-bg-color);
   color: var(--accent-color);
   font-family: var(--font-secondary);
-  font-style: italic;
+  font-style: normal;
   font-weight: bold;
   font-size: 1rem;
   text-transform: capitalize;
